@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     setKey(process.env.REACT_APP_API_KEY); // your OpenWeather API here
     console.log(apiKey)
-  }, []);
+  }, [apiKey]);
 
   const fetchWeather = async () => {
     try {
