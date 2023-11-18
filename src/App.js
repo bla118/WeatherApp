@@ -11,7 +11,7 @@ function App() {
   const [apiKey, setKey] = useState('');
   
   useEffect(() => {
-    setKey(process.env.REACT_APP_API_KEY);
+    setKey(process.env.REACT_APP_API_KEY); // your OpenWeather API here
     console.log(apiKey)
   }, []);
 
